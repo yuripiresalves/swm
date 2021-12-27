@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(203, 151, 252);
+  font-family: Roboto;
+  color: #222;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  max-height: 200px;
+  background-color: rgb(245, 237, 128);
+}
+
+header img {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.discord,
+.insta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100px;
+}
+
+.discord h2,
+.insta h2 {
+  margin-top: 15px;
+}
+
+.insta {
+  margin-top: 80px;
+}
